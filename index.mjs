@@ -9,7 +9,8 @@ client.once("ready", () => {
 })
 
 client.on("messageCreate", (message) => {
-	console.log(message.content);
+	cont regex = /https?:\/\/github.com\/([\d\w-\.]+\/[\d\w-\.]+)/;
+	curl -i regex
 })
 
 client.login("OTYzODczMzYwNjg3ODIwODIw.YlcbBQ.JcxPTJdtmBSr6wUMYsJV55PQG-s");
